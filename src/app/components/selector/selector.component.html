@@ -1,0 +1,5 @@
+<div class="flex-container">
+  <mat-icon (click)="go(-1)">arrow_left</mat-icon>
+  <span>{{dateService.date|async|moment}}</span>
+  <mat-icon (click)="go(1)">arrow_right</mat-icon>
+</div>
